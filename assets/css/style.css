@@ -13,6 +13,16 @@ a:hover{
     Custom Scrolbar
 ========================================
 */
+::-webkit-scrollbar{
+  width: 8px;
+}
+::-webkit-scrollbar-track{
+  background: transparent;
+}
+::-webkit-scrollbar-thumb{
+  background: var(--meta-color);
+}
+
 :root{
     --primary-color: #45505b;
     --secondary-color: #08a595;
